@@ -327,7 +327,7 @@ class Templistup: # テンプレートの検索と置換
                                 else:
                                     pass
                         text=text.replace(m0,str(m))
-                #oldnew03(old_text,text)
+                oldnew03(old_text,text)
                 #list4=list4+[oldnew02(page,old_text,text)]
             except Exception as e:
                 print('Exception : ',title, '—',e)
