@@ -2,7 +2,11 @@
 ---
 # a cronjob
 # another normal job after the previous one finished running
-- name: breq51
+- name: bq1
   image: python3.11
-  command: "pyvenv/bin/python ss05.py"
+  command: "pyvenv/bin/python toolforge/ss05.py 0 10"
+  emails: none
+- name: bq1
+  image: python3.11
+  command: "pyvenv/bin/python toolforge/ss05.py 10 20"
   emails: none
