@@ -6,7 +6,7 @@
   image: python3.11
   command: "pyvenv/bin/python toolforge/ss05.py 0 10"
   emails: none
-- name: bq1
+- name: bq2
   image: python3.11
   command: "pyvenv/bin/python toolforge/ss05.py 10 20"
   emails: none
